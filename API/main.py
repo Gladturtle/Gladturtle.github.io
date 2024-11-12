@@ -13,7 +13,7 @@ api = Api(app)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///database.db'
 app.config['SECRET_KEY'] = 'bacaa3381e4c453088449ccd04f270cf'
 db = SQLAlchemy(app)
-add = '127.0.0.1:5000'
+add = 'Gladturtle.github.io'
 
 
 image_put_img = reqparse.RequestParser()
